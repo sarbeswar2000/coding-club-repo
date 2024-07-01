@@ -1,0 +1,71 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+/* Navbar styling */
+.nav {
+    position: sticky;
+    top: 0; /* Ensure it sticks to the top */
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 70px;
+    padding: 10px 0; /* Add padding to ensure content isn't cut off */
+   /* Ensure the background color is set */
+    color: white;
+    width: calc(100% - 140px); /* Adjust width considering the margins */
+}
+.nav-logo {
+    font-family: Playwrite;
+    font-weight: 600;
+    font-size: 38px;
+    color: #aaf4e0;
+}
+.nav-menu {
+    font-family: Playwrite;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    font-weight: 600;
+    font-size: 18px;
+    list-style: none;
+}
+#liel:hover{
+    color: #8faa9b;
+    transform: scale(1.05);
+}
+.nav-contact {
+    border-radius: 35px;
+    padding: 8px 35px;
+    background: #fff;
+    color: #262626;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Animation */
+}
+.nav-contact:hover {
+    background-color: #13673a; /* Darker blue background on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+/* Media queries for mobile devices */
+@media (max-width: 700px) {
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 5px 18px;
+        width: calc(100% - 40px); /* Adjust width considering the margins */
+    }
+    .nav-menu {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px; /* Reduce gap between menu items for smaller screens */
+    }
+
+    .nav-contact {
+        margin-top: 5px; /* Add margin to separate contact button from menu items */
+    }
+}

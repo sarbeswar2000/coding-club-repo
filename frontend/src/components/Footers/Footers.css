@@ -1,0 +1,21 @@
+.footer {
+    position: relative;
+    display: flex;
+    z-index: 1; /* Ensure this is higher than the background */
+    background-color: rgb(53, 134, 75); /* Example background color to make it visible */
+    color: rgb(23, 9, 9);
+    /* text-align: center; */
+    padding: 50px;
+     height: 50vh;
+     width: 100%;
+  }
+
+  .contact{
+       
+  }
+  .location {
+   
+
+    font-family: Arial, sans-serif;
+    
+  }

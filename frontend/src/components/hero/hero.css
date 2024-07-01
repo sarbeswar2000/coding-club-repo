@@ -1,0 +1,49 @@
+
+.hero-span{
+    font-family: Playwrite;
+    font-size: 40px;
+    font-Weight:'bold';
+    color:#e2ede6
+}
+.hero-cruson{
+    color:'red'
+}
+.center-wrapper {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 60vh; 
+    text-align: center; 
+    width: 100%;
+}
+  .nav-contact{
+    border-radius: 35px;
+    padding: 8px 35px;
+    background:#fff;
+    color: #262626;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Animation */
+}
+.nav-contact:hover {
+  background-color: #13673a; /* Darker blue background on hover */
+  transform: scale(1.05); /* Slightly increase size on hover */
+}
+.register-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #035105;
+}
