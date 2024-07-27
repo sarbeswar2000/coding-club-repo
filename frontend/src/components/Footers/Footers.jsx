@@ -1,32 +1,82 @@
 import React from "react";
-import "./Footers.css";
 
-const Footers = () => {
+
+const Footer = () => {
   return (
-    <div className="footer">
-      <div className="contact">
-        <h2>Contact</h2>
-        <p>Central University Of Haryana</p>
-        <p>
-          Email: <a href="mailto:codingclub@cuh.ac.in">codingclub@cuh.ac.in</a>
-        </p>
-        <p>
-          Phone: <a href="tel:+91 9999999999">+91 9999999999</a>
-        </p>
-      </div>
-      <div className="location">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5382.7501587263405!2d76.13636795054236!3d28.35333113490718!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39129577ce587a0b%3A0xbdc1de187d4dccf9!2sCentral%20University%20of%20Haryana!5e0!3m2!1sen!2sin!4v1719585135441!5m2!1sen!2sin"
-          width="200"
-          height="180"
-          style={{ border: 0 }}
-          allowFullScreen=""
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </div>
+    <div className="footer w-full  bg-slate-400  tracking-widest">
+      <footer className="lg:flex flex-col md:flex-row  gap-2  justify-evenly w-full  mb-2 p-10 ">
+        <div className=" lg:flex flex-row justify-around   w-full md:w-1/2">
+          <div className="w-full space-y-4">
+           
+            <p className="text-white text-xs pr-4 xl:text-sm">
+              <p>WHERE PASSION </p>
+              <p>MEETS PERFECTION !</p>
+            </p>
+          </div>
+          <div className="w-full space-y-4">
+            <h3
+              className=" text-xl uppercase text-cyan-700 font-bold p-1 border-b-2 border-white w-fit my-2"
+            >
+              quiz
+            </h3>
+            
+          </div>
+        </div>
+
+        {/* F */}
+        <div className="lg:flex flex-row justify-around w-full md:w-1/2">
+          <div className="w-full space-y-4 ">
+            <h3
+              className="text-xl uppercase text-cyan-700 font-bold p-1 border-b-2 border-white w-fit my-2"
+
+            >
+              Contact
+            </h3>
+            <p className="flex items-center my-1">
+              <i
+                className="fa fa-home text-white text-sm"
+                style={{ marginRight: "2px" }}
+              ></i>
+              <span className="text-white text-xs xl:text-sm">
+                Central University Of Haryana
+              </span>
+            </p>
+            <p className="flex items-center my-1">
+              <i
+                className="fa fa-envelope text-white text-xs"
+                style={{ marginRight: "2px" }}
+              ></i>
+              <span className="text-white text-xs xl:text-sm">
+                codingclub@cuh.ac.in
+              </span>
+            </p>
+            <p className="flex items-center my-1">
+              <i
+                className="fa fa-phone text-white"
+                style={{ marginRight: "2px" }}
+              ></i>
+              <span className="text-white text-xs xl:text-sm">
+                +91 9348674984
+              </span>
+            </p>
+          </div>
+          <div className="w-full h-full mt-4 space-y-4">
+            <iframe
+              title="Google Map"
+              className="h-full w-full"
+              src="https://maps.google.com/maps?q=centra  l university of haryana &t=&z=10&ie=UTF8&iwloc=&output=embed"
+              frameBorder="0"
+              scrolling="no"
+              marginHeight="0"
+              marginWidth="0"
+            ></iframe>
+
+          </div>
+        </div>
+      </footer>
+      <p className="text-sm text-white  text-center mt-4 pb-4">&copy; 2023 Coding Club. All rights reserved.</p>
     </div>
   );
 };
 
-export default Footers;
+export default Footer;

@@ -7,15 +7,13 @@
     /* text-align: center; */
     padding: 50px;
      height: 50vh;
-     width: 100%;
+    width: 100%;
+    bottom: 0%;
   }
 
-  .contact{
-       
-  }
+
   .location {
    
-
     font-family: Arial, sans-serif;
-    
-  }
+
+}

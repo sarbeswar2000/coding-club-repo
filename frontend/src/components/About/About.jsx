@@ -21,14 +21,14 @@ export default function About() {
                 id="e813992c-7d03-4cc4-a2bd-151760b470a0"
                 width={200}
                 height={200}
-                x="50%"
+                x="100%"
                 y={-1}
                 patternUnits="userSpaceOnUse"
               >
                 <path d="M100 200V.5M.5 .5H200" fill="none" />
               </pattern>
             </defs>
-            <svg x="50%" y={-1} className="overflow-visible fill-gray-50">
+            <svg x="100" y={-1} className="overflow-visible fill-gray-50">
               <path
                 d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z"
                 strokeWidth={0}
@@ -125,24 +125,7 @@ export default function About() {
                     </span>
                   </li>
                 </ul>
-                {/* <p className="mt-8">
-                  Et vitae blandit facilisi magna lacus commodo. Vitae sapien
-                  duis odio id et. Id blandit molestie auctor fermentum
-                  dignissim. Lacus diam tincidunt ac cursus in vel. Mauris
-                  varius vulputate et ultrices hac adipiscing egestas. Iaculis
-                  convallis ac tempor et ut. Ac lorem vel integer orci.
-                </p> */}
-                {/* <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-                  No server? No problem.
-                </h2> */}
-                {/* <p className="mt-6">
-                  Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam
-                  consequat in. Convallis arcu ipsum urna nibh. Pharetra,
-                  euismod vitae interdum mauris enim, consequat vulputate nibh.
-                  Maecenas pellentesque id sed tellus mauris, ultrices mauris.
-                  Tincidunt enim cursus ridiculus mi. Pellentesque nam sed
-                  nullam sed diam turpis ipsum eu a sed convallis diam.
-                </p> */}
+              
               </div>
             </div>
           </div>
